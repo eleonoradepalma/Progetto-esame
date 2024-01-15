@@ -1,11 +1,15 @@
-Sito Web "nome"
-
+<head>
+    <title>Sito Web "nome"
 Anno accademico 2023/2024
-
 Eleonora de Palma
-
 Matricola n.953
+Corso Web Design</title>
+  </head>
 
+Sito Web "nome"
+Anno accademico 2023/2024
+Eleonora de Palma
+Matricola n.953
 Corso Web Design
 
 
