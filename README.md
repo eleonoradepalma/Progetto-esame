@@ -11,7 +11,7 @@ Realizzazione di un sito web monopagina per ""
 
 Link sito web creato
 
-## Elementi principali della pagina:
+#### Elementi principali della pagina:
 * Nome del ristorante
 * Logo del ristorante
 * Burger menù per semplificare la navigazione nel sito
