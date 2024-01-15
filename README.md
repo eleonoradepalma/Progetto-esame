@@ -14,18 +14,11 @@ Link sito web creato
 Elementi principali della pagina:
 
 * Nome del ristorante
-
-Logo del ristorante
-
-Burger menù per semplificare la navigazione nel sito
-
-Descrizione del ristorante (chi siamo)
-
-Descrizione dei prodotti offerti dal ristorante
-
-Sezione form per le prenotazioni
-
-Footer con contatti, orari, copyright e profili social
+* Logo del ristorante
+* Burger menù per semplificare la navigazione nel sito
+* Descrizione del ristorante (chi siamo)
+* Descrizione dei prodotti offerti dal ristorante
+* Footer con contatti, orari, copyright e profili social
 
 Siti e Strumenti utilizzati:
 
