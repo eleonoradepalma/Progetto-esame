@@ -1,7 +1,8 @@
 ## Sito Web "nome"
 
-Realizzazione di un sito web monopagina per ""
-Link sito web creato
+Realizzazione di un sito web monopagina per "..."
+
+Link sito web creato...
 
 *Anno accademico 2023/2024*
 *Eleonora de Palma*
