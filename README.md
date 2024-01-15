@@ -4,7 +4,7 @@ Realizzazione di un sito web monopagina per "..."
 
 Link sito web creato...
 
-*Anno accademico 2023/2024*
+* *Anno accademico 2023/2024*
 *Eleonora de Palma*
 *Matricola n.953*
 *Corso Web Design*
