@@ -13,7 +13,7 @@ Link sito web creato
 
 Elementi principali della pagina:
 
-Nome del ristorante
+* Nome del ristorante
 
 Logo del ristorante
 
