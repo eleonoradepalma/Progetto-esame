@@ -1,8 +1,8 @@
 ## Sito Web "nome"
-*Anno accademico 2023/2024
-*Eleonora de Palma
-*Matricola n.953
-*Corso Web Design
+*Anno accademico 2023/2024*
+*Eleonora de Palma*
+*Matricola n.953*
+*Corso Web Design*
 
 
 Scopo del repository:
