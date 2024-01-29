@@ -16,8 +16,8 @@ Link sito web creato...
 * Nome e logo
 * Burger menù per semplificare la navigazione nel sito
 * Sezione "About me"
-* Portfolio suddiviso per generi fotografici
-* Footer con contatti, copyright e profili social
+* Sezione gallery con portfolio suddiviso per generi fotografici
+* Sezione Contatti e profili social
 
 ### Siti e Strumenti utilizzati:
 * Codepen.io
