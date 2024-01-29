@@ -1,6 +1,6 @@
-## Sito Web "nome"
+## Sito Web "Erika Sorbello"
 
-Realizzazione di un sito web monopagina per "..."
+Realizzazione di un sito web monopagina per una fotografa
 
 Link sito web creato...
 
