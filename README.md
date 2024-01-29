@@ -13,12 +13,11 @@ Link sito web creato...
 *Corso Web Design*
 
 ### Elementi principali della pagina:
-* Nome del ristorante
-* Logo del ristorante
+* Nome e logo
 * Burger menù per semplificare la navigazione nel sito
-* Descrizione del ristorante (chi siamo)
-* Descrizione dei prodotti offerti dal ristorante
-* Footer con contatti, orari, copyright e profili social
+* Sezione "About me"
+* Portfolio suddiviso per generi fotografici
+* Footer con contatti, copyright e profili social
 
 ### Siti e Strumenti utilizzati:
 * Codepen.io
