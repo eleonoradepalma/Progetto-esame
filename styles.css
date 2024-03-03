@@ -1,1 +1,4 @@
-
+.image-container {
+    display: flex;
+    align-items: center; /* Allinea verticalmente al centro */
+}
