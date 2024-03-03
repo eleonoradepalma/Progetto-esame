@@ -1,4 +1,5 @@
-.image-container {
-    display: flex;
-    align-items: center; /* Allinea verticalmente al centro */
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Una colonna */
+    gap: 10px; /* Spazio tra le immagini */
 }
