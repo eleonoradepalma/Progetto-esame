@@ -1,3 +1,5 @@
+<style>
+
 .container-fluid {
             display: flex; 
             justify-content: center;
@@ -10,3 +12,4 @@ h1 {color: orange;}
             flex-direction : column;
             justify-content: center;
             }
+</style>
