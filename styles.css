@@ -1,1 +1,15 @@
+.container {
+    display: flex;
+}
 
+.column {
+    flex: 1;
+    padding: 10px; /* Aggiungi spazio tra le immagini */
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%; /* Le immagini occupano tutta la larghezza della colonna */
+    height: auto; /* Mantieni l'aspetto proporzionato */
+}
