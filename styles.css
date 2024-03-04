@@ -3,3 +3,10 @@
     grid-template-columns: 1fr; /* Una colonna */
     gap: 10px; /* Spazio tra le immagini */
 }
+
+.image-grid2 {
+    display: grid;
+    grid-template-columns: 1fr; /* Una colonna */
+    gap: 10px; /* Spazio tra le immagini */
+}
+
