@@ -1,9 +1,12 @@
-.container-fluid {display: flex; 
-            flex-direction: row;
+.container-fluid {
+            display: flex; 
+            justify-content: center;
             }
 
 h1 {color: orange;}
 
 .container {display: flex; 
-            flex-direction: row;
+            flex-direction : column
+            justify-content: center;
+            
             }
