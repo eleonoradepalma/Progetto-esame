@@ -1,10 +1,11 @@
 .container {display: flex; 
             flex-direction: row;
             justify-content: flex-end;
+            padding: 30px
             }
 
 .column1 {
-  margin-left: 120px;
+  margin-left: 160px;
   padding: 10px; 
 
 .column2 {
