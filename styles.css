@@ -1,10 +1,3 @@
 .container {
     display: flex;
 }
-
-.column {
-    flex: 1;
-    padding: 10px; /* Aggiungi spazio tra le immagini */
-    display: flex;
-    flex-direction: column;
-}
