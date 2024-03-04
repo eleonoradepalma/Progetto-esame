@@ -1,5 +1,5 @@
 .container-fluid {display: flex; 
-            flex-direction: row;
+            flex-direction: row-reverse;
             }
 
 h1 {color: orange;}
