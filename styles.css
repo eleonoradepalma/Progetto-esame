@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-corpo {
+body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -61,19 +61,6 @@ corpo {
 
 
 
-
-
-
-
-
-
-
-
-
-.container-fluid {
-            display: flex; 
-            justify-content: flex-end;
-            }
 
 h1 {color: orange;}
 
