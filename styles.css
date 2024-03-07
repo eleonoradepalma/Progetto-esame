@@ -9,7 +9,7 @@ corpo {
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 50px;
 }
 #image-container {
@@ -18,7 +18,7 @@ corpo {
   height: 150%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
   gap: 25px;
   overflow: hidden;
@@ -28,7 +28,7 @@ corpo {
   flex-shrink: 0;
   height: 200px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   animation: move 15s linear infinite alternate;
   user-select: none;
