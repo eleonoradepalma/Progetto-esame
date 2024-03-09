@@ -1,5 +1,5 @@
 * {
-  margin: 5;
+  margin: 15;
   padding: 0;
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ corpo {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  gap: 25px;
+  gap: 15px;
   overflow: hidden;
   transform: rotate(0deg);
 }
