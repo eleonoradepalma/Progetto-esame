@@ -23,7 +23,6 @@ corpo {
   justify-content: flex-end;
   gap: 15px;
   overflow: hidden;
-  transform: rotate(0deg);
 }
 .image {
   flex-shrink: 0;
