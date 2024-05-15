@@ -51,10 +51,9 @@ main {
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
 }
-
-    
+  
 }
-footer {background: lightgray;
+footer {background: darkgray;
 }
 
 .left-sidebar {
@@ -64,7 +63,7 @@ footer {background: lightgray;
     align-items: center; /* Centra verticalmente */
 }
 .right-sidebar {
-    background: white;
+    background: darkgray;
 }
 
 
