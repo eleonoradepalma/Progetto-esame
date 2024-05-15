@@ -67,7 +67,7 @@ footer {
   text-align: left;
   margin-left: 20px; 
   font-family: 'Nimbus Sans', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
   color: black;
 }
@@ -75,6 +75,7 @@ footer {
 .left-sidebar nav ul {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left;
+    margin-left: 20px;
 }
 
 .left-sidebar nav ul li {
@@ -84,9 +85,9 @@ footer {
 .left-sidebar nav ul li a {
     color: black; /* Imposta il colore del testo */
     text-decoration: none; /* Rimuove il sottolineato dai link */
-     font-family: 'Nimbus Sans', sans-serif;
+    font-family: 'Nimbus Sans', sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
     text-decoration: none;
 }
