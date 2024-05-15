@@ -18,16 +18,16 @@
         width: 100%;
     }  
     main {
-        flex: 3;
+        flex: 4;
         order: 2;
         min-height: 80vh;
     } 
     .left-sidebar {
         order: 1;
-        flex: 0.5;
+        flex: 1;
     }
     .right-sidebar {
-        flex: 0.5;
+        flex: 1;
         order: 3;
     }
     footer {
@@ -45,7 +45,7 @@ header {
     background: white;
 }
 main {
-    background: white;
+    background: darkgray;
 }
 footer {
     background: gray;
