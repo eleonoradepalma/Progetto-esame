@@ -76,6 +76,8 @@ footer {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left;
     margin-left: 20px;
+    justify-content: center; /* Centra verticalmente gli elementi */
+    align-items: flex-start; /* Allinea gli elementi a sinistra */
 }
 
 .left-sidebar nav ul li a {
