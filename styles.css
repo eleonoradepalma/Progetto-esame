@@ -75,7 +75,8 @@ footer {
 .left-sidebar nav ul {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left;
-    margin-left: 20px;
+    margin-left: 20px; 
+}
 
 .left-sidebar nav ul li a {
     color: black; /* Imposta il colore del testo */
