@@ -91,30 +91,3 @@ footer {
 
 
 
-.carousel {
-  display: flex;
-  flex-direction: column;
-  height: 300px; /* Adjust as needed */
-}
-
-.carousel-images {
-  display: flex;
-  flex-direction: column;
-  height: 1800px; /* Adjust based on image height */
-  animation: scroll 2s linear infinite;
-}
-
-.carousel-images img {
-  height: 300px; /* Adjust based on image height */
-  flex-shrink: 0;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
