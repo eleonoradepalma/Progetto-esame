@@ -101,7 +101,7 @@ footer {
   display: flex;
   flex-direction: column;
   height: 900px; /* Adjust based on image height */
-  animation: scroll 40s linear infinite;
+  animation: scroll 2s linear infinite;
 }
 
 .carousel-images img {
