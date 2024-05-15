@@ -24,11 +24,6 @@
         order: 2;
         min-height: 80vh;
     } 
-
-     footer {
-        background: lightgray;
-         } 
-
          
     .left-sidebar {
         order: 1;
