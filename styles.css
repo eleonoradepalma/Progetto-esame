@@ -100,7 +100,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 1000vh; /* Assicurati che il main sia abbastanza alto da permettere la centratura verticale */
+  min-height: 80vh; /* Assicurati che il main sia abbastanza alto da permettere la centratura verticale */
 }
 
 
