@@ -94,6 +94,7 @@ main img {
   display: block;
   margin: 0 auto; /* Centra l'immagine orizzontalmente */
   max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
+  width: 50%; /* Imposta la larghezza dell'immagine al 50% del contenitore */
   height: auto; /* Mantiene il rapporto aspetto originale dell'immagine */
 }
 
