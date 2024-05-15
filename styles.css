@@ -76,6 +76,7 @@ footer {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left;
     margin-left: 20px;
+    justify-content: center;
 }
 
 .left-sidebar nav ul li a {
@@ -87,6 +88,15 @@ footer {
     color: black;
     text-decoration: none;
 }
+
+
+main img {
+  display: block;
+  margin: 0 auto; /* Centra l'immagine orizzontalmente */
+  max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
+  height: auto; /* Mantiene il rapporto aspetto originale dell'immagine */
+}
+
 
 
 
