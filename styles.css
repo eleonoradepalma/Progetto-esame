@@ -42,19 +42,19 @@ body {
     line-height: 3;
 }
 header {
-    background: orangered;
+    background: white;
 }
 main {
-    background: darkslateblue;
+    background: white;
 }
 footer {
-    background: deeppink;
+    background: white;
 }
 .left-sidebar {
-    background: dodgerblue;
+    background: white;
 }
 .right-sidebar {
-    background: forestgreen;
+    background: white;
 }
 
 
