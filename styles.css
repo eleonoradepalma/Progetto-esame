@@ -68,10 +68,10 @@ footer {
 }
 
 
-
 .left-sidebar nav ul {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left; /* Imposta l'allineamento del testo a sinistra */
+    margin-left: 20px; 
 }
 
 .left-sidebar nav ul li {
