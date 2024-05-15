@@ -42,7 +42,7 @@ body {
     line-height: 3;
 }
 header {
-    background: darkgray;
+    background: white;
 }
 main {
     background: white;
@@ -54,16 +54,16 @@ main {
     
 }
 footer {
-    background: darkgray;
+    background: white;
 }
 .left-sidebar {
-    background: lightgray;
+    background: white;
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
 }
 .right-sidebar {
-    background: lightgray;
+    background: white;
 }
 
 
