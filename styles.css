@@ -16,6 +16,7 @@
     header, 
     footer {
         width: 100%;
+        background: lightgray;
     }  
    
     main {
@@ -42,9 +43,7 @@ body {
     font-size: 24px;
     line-height: 3;
 }
-header {
-    background: lightgray;
-}
+
 main {
     background: gray;
     display: flex;
@@ -52,10 +51,6 @@ main {
     align-items: center; /* Centra verticalmente */
 }
   
-}
-footer {
-    background: deeppink;
-}
 
 .left-sidebar {
     background: darkgray;
