@@ -23,8 +23,8 @@
         min-height: 80vh;
     } 
     .left-sidebar {
-        order: 0.5;
-        flex: 1;
+        order: 1;
+        flex: 0.5;
     }
     .right-sidebar {
         flex: 0.5;
