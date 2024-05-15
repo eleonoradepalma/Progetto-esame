@@ -95,14 +95,13 @@ footer {
   display: flex;
   flex-direction: column;
   height: 300px; /* Adjust as needed */
-  overflow: hidden;
 }
 
 .carousel-images {
   display: flex;
   flex-direction: column;
   height: 900px; /* Adjust based on image height */
-  animation: scroll 10s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 .carousel-images img {
