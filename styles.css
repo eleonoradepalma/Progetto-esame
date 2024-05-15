@@ -42,19 +42,19 @@ body {
     line-height: 3;
 }
 header {
-    background: dark gray;
+    background: darkgray;
 }
 main {
     background: white;
 }
 footer {
-    background: dark gray;
+    background: darkgray;
 }
 .left-sidebar {
-    background: light gray;
+    background: lightgray;
 }
 .right-sidebar {
-    background: light gray;
+    background: lightgray;
 }
 
 
