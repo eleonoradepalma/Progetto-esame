@@ -71,8 +71,9 @@ footer {
 .left-sidebar nav ul {
     list-style-type: none; /* Rimuove i bullet points */
     text-align: left; /* Imposta l'allineamento del testo a sinistra */
+    justify-content: center; /* Centra gli elementi verticalmente */
     margin-left: 20px; 
-    padding: 0; /* Rimuove il padding predefinito */
+
 }
 
 .left-sidebar nav ul li {
