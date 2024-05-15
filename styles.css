@@ -78,10 +78,6 @@ footer {
     margin-left: 20px;
 }
 
-.left-sidebar nav ul li {
-    margin-bottom: 1px; /* Aggiunge spazio tra gli elementi della lista */
-}
-
 .left-sidebar nav ul li a {
     color: black; /* Imposta il colore del testo */
     text-decoration: none; /* Rimuove il sottolineato dai link */
