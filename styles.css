@@ -42,17 +42,27 @@ body {
     line-height: 3;
 }
 header {
-    background: orangered;
+    background: dark gray;
 }
 main {
-    background: darkslateblue;
+    background: white;
 }
 footer {
-    background: deeppink;
+    background: dark gray;
 }
 .left-sidebar {
-    background: dodgerblue;
+    background: light gray;
 }
 .right-sidebar {
-    background: forestgreen;
+    background: light gray;
+}
+
+
+.title {
+  text-align: left;
+  margin-left: 20px; 
+  font-family: 'Nimbus Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
 }
