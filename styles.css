@@ -24,3 +24,10 @@ footer {
 }
 .right-sidebar {
     background: forestgreen;
+
+the flex-direction: column; rule.
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
