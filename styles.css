@@ -16,6 +16,7 @@
     header, 
     footer {
         width: 100%;
+        background: lightgray;
     }  
     main {
         flex: 3;
