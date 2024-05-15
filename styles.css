@@ -87,3 +87,33 @@ footer {
     color: black;
     text-decoration: none;
 }
+
+
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  flex-direction: column;
+  height: 900px; /* Adjust based on image height */
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-images img {
+  height: 300px; /* Adjust based on image height */
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
