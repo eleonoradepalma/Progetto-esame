@@ -65,12 +65,11 @@ main {
 
 
 .title {
-  text-align: left;
-  margin-left: 20px; 
   font-family: 'Nimbus Sans', sans-serif;
   font-size: 18px;
   font-weight: 800;
   color: black;
+  justify-content: center; /* Centra orizzontalmente */
 }
 
 .left-sidebar img {
