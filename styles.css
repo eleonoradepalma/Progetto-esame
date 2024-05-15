@@ -18,16 +18,16 @@
         width: 100%;
     }  
     main {
-        flex: 2;
+        flex: 3;
         order: 2;
         min-height: 80vh;
     } 
     .left-sidebar {
         order: 1;
-        flex: 1;
+        flex: 0.5;
     }
     .right-sidebar {
-        flex: 1;
+        flex: 0.5;
         order: 3;
     }
     footer {
