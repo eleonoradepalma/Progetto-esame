@@ -45,16 +45,16 @@ header {
     background: gray;
 }
 main {
-    background: gray;
-}
-footer {
     background: white;
 }
+footer {
+    background: gray;
+}
 .left-sidebar {
-    background: light gray;
+    background: lightgray;
 }
 .right-sidebar {
-    background: light gray;
+    background: lightgray;
 }
 
 
