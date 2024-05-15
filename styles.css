@@ -42,19 +42,19 @@ body {
     line-height: 3;
 }
 header {
-    background: white;
+    background: gray;
 }
 main {
-    background: white;
+    background: gray;
 }
 footer {
     background: white;
 }
 .left-sidebar {
-    background: white;
+    background: light gray;
 }
 .right-sidebar {
-    background: white;
+    background: light gray;
 }
 
 
@@ -68,5 +68,6 @@ footer {
   margin-left: 20px; 
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 400;
+  color: black;
 }
