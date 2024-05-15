@@ -16,8 +16,8 @@
     header, 
     footer {
         width: 100%;
-        background: lightgray;
     }  
+   
     main {
         flex: 3;
         order: 2;
@@ -46,7 +46,7 @@ header {
     background: lightgray;
 }
 main {
-    background: white;
+    background: gray;
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
@@ -54,10 +54,11 @@ main {
 
     
 }
-footer {background: darkgray;
+footer {background: lightgray;
 }
+
 .left-sidebar {
-    background: white;
+    background: darkgray;
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
