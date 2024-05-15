@@ -46,6 +46,12 @@ header {
 }
 main {
     background: white;
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+    
 }
 footer {
     background: darkgray;
