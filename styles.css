@@ -52,6 +52,9 @@ footer {
 }
 .left-sidebar {
     background: lightgray;
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 .right-sidebar {
     background: lightgray;
