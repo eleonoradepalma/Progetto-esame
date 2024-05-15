@@ -18,7 +18,7 @@
         width: 100%;
     }  
     main {
-        flex: 3;
+        flex: 2;
         order: 2;
         min-height: 80vh;
     } 
@@ -42,50 +42,17 @@ body {
     line-height: 3;
 }
 header {
-    background: white;
+    background: orangered;
 }
 main {
-    background: darkgray;
+    background: darkslateblue;
 }
 footer {
-    background: gray;
+    background: deeppink;
 }
 .left-sidebar {
-    background: lightgray;
+    background: dodgerblue;
 }
 .right-sidebar {
-    background: lightgray;
+    background: forestgreen;
 }
-
-
-
-
-
-
-
-.title {
-  text-align: left;
-  margin-left: 20px; 
-  font-family: 'Nimbus Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  color: black;
-}
-
-.left-sidebar nav ul {
-    list-style-type: none; /* Rimuove i bullet points */
-    text-align: left;
-    margin-left: 20px; 
-}
-
-.left-sidebar nav ul li a {
-    color: black; /* Imposta il colore del testo */
-    text-decoration: none; /* Rimuove il sottolineato dai link */
-    font-family: 'Nimbus Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: black;
-    text-decoration: none;
-}
-
-
