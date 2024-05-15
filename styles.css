@@ -70,6 +70,12 @@ footer {
   color: black;
 }
 
+.left-sidebar img {
+width: 50px; /* o qualsiasi altra dimensione */
+height: 50px; /* assicurati che sia proporzionale alla larghezza se vuoi mantenere l'aspetto dell'icona */
+}
+
+
    
     
  
