@@ -98,7 +98,13 @@ main img {
   height: auto; /* Mantiene il rapporto aspetto originale dell'immagine */
 }
 
-
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Assicurati che il main sia abbastanza alto da permettere la centratura verticale */
+}
 
 
 
