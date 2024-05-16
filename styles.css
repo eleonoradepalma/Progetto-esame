@@ -96,8 +96,8 @@ height: 40px;
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto
-    grid-gap: 20px; /* Distanza tra le immagini */
+    grid-template-columns: auto auto
+    grid-gap: 10px; /* Distanza tra le immagini */
 }
 
 main img {
