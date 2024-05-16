@@ -156,6 +156,8 @@ height: 40px;
             
     .gallery img {
         width: 40vw; /* Le immagini saranno larghe il 40% della larghezza della finestra */
+        flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
+        max-width: 100%; /* Le immagini non saranno più grandi della loro larghezza naturale */
     }
      }  
 
