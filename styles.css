@@ -97,7 +97,7 @@ height: 40px;
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px; /* Distanza tra le immagini */
+    grid-gap: 1px; /* Distanza tra le immagini */
 }
 
 
