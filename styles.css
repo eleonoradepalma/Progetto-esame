@@ -121,18 +121,9 @@ height: 40px;
         .container {
         flex-direction: row;
         flex-wrap: wrap; 
-         } 
-     }  
+         }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px)
-    {
-        .container {
-        flex-direction: row;
-        flex-wrap: wrap; 
-         } 
-
-  .left-sidebar {
+.left-sidebar {
         order: 1;
         flex: 0.5;
     } 
@@ -144,13 +135,20 @@ height: 40px;
     footer {
         order: 4;
     }
-
          main {
         flex: 3;
         order: 2;
         min-height: 80vh;
-    } 
-        
+    }        
+     }  
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+    {
+        .container {
+        flex-direction: row;
+        flex-wrap: wrap; 
+         }   
      }
 
 
