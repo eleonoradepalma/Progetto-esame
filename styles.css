@@ -131,4 +131,13 @@ height: 40px;
         flex-direction: row;
         flex-wrap: wrap; 
          } 
-     }  
+
+  .left-sidebar {
+        order: 1;
+        flex: 0.5;
+    }   
+     }
+
+
+
+
