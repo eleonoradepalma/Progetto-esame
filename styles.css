@@ -96,14 +96,9 @@ height: 40px;
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px; /* Distanza tra le immagini */
     padding: 10px
-}
-
-main img {
-    width: 100%; /* Larghezza completa della colonna */
-    height: auto; /* Altezza automatica per mantenere le proporzioni */
 }
 
 
