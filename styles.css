@@ -126,7 +126,7 @@ height: 40px;
         {
         .container {
         flex-direction: row;
-        flex-wrap: wrap; 
+        flex-wrap: nowrap; 
          }    
       main {
         flex: 3;
