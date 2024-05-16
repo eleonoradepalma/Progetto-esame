@@ -139,12 +139,7 @@ height: 40px;
     }
     footer {
         order: 4;
-    }    
-
-   {
-  .gallery img {
-    width: 40%; /* Rimpicciolisci l'immagine al 50% della sua larghezza originale */
-  }       
+    }         
      }  
 
 /* Large devices (desktops, 992px and up) */
