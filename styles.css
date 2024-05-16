@@ -102,10 +102,6 @@ height: 40px;
   gap: 10px; /* Distanza tra le immagini */
 }
 
-.img-square {
-  flex: 1 0 calc(50% - 10px); /* Larghezza di ogni immagine meno la metà del gap */
-}
-
 .img-square img {
   height: auto; /* Mantiene le proporzioni dell'immagine */
   aspect-ratio: 1 / 1; /* Rende l'immagine quadrata */
