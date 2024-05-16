@@ -87,7 +87,7 @@ height: 40px;
 /* MEDIA QUERY */
 
   /* Small devices (smartphone e tablet) */
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
 .container {
     display: flex;
