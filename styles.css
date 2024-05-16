@@ -104,8 +104,5 @@ height: 40px;
 
 .img-square img {
   height: auto; /* Mantiene le proporzioni dell'immagine */
-  aspect-ratio: 1 / 1; /* Rende l'immagine quadrata */
-}
-
     
  
