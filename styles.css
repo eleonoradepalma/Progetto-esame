@@ -166,6 +166,11 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
     
     }
+
+  .left-sidebar ul {
+    display: none;
+  }
+            
      }  
 
 
