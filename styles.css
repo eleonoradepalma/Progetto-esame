@@ -33,7 +33,7 @@
     footer {
         order: 4;
     }
-}
+
 /* COLORS and FONTS */
 body {
     color: white;
@@ -135,7 +135,22 @@ height: 40px;
   .left-sidebar {
         order: 1;
         flex: 0.5;
-    }   
+    } 
+
+ .right-sidebar {
+        flex: 0.5;
+        order: 3;
+    }
+    footer {
+        order: 4;
+    }
+
+         main {
+        flex: 3;
+        order: 2;
+        min-height: 80vh;
+    } 
+        
      }
 
 
