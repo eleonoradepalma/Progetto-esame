@@ -149,8 +149,8 @@ height: 40px;
     }
             
     .gallery img {
-        flex-basis: 50%; /* Le immagini occuperanno il 40% dello spazio disponibile */
-        width: 20%; /* Rimpicciolisci le immagini al 50% della loro larghezza originale */
+        flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
+        width: 50%; /* Rimpicciolisci le immagini al 50% della loro larghezza originale */
     }
      }  
 
