@@ -94,30 +94,5 @@ width: 40px;
 height: 40px; 
 }
 
-
-/* Per dispositivi mobili */
-@media all and (max-width: 767px) {
-    main {
-        flex-direction: column;
-    }
-    main img {
-        width: 100%; /* Ogni immagine occuperà l'intera larghezza */
-        margin-bottom: 15px; /* Aggiunge spazio tra le immagini */
-    }
-}
-
-/* Per tablet e schermi PC più grandi */
-@media all and (min-width: 768px) {
-    main {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around; /* Distribuisce lo spazio intorno agli elementi */
-    }
-    main img {
-        flex-basis: calc(50% - 10px); /* Imposta la base per ogni immagine meno il margine */
-        margin: 5px; /* Aggiunge un margine intorno alle immagini */
-    }
-}
-
     
  
