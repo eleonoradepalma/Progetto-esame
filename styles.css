@@ -139,12 +139,7 @@ height: 40px;
     }
     footer {
         order: 4;
-    }  
-
-  .gallery {
-  display: flex;
-  flex-wrap: wrap;
-}          
+    }        
      }  
 
 /* Large devices (desktops, 992px and up) */
