@@ -98,6 +98,7 @@ height: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px; /* Distanza tra le immagini */
+    padding: 1px
 }
 
 
