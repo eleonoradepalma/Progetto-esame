@@ -72,11 +72,6 @@ main {
   justify-content: center; /* Centra orizzontalmente */
 }
 
-.left-sidebar img {
-width: 40px;
-height: 40px; 
-}
-
 
   .navigation {
     list-style: none;
