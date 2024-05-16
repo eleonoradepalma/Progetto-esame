@@ -121,9 +121,11 @@ height: 40px;
 @media (min-width: 768px)
         {
         .container {
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap; 
-         }    
+        flex-wrap: wrap;
+         }
+            
       main {
         flex: 3;
         order: 2;
