@@ -94,6 +94,19 @@ width: 40px;
 height: 40px; 
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea 2 colonne */
+    grid-gap: 10px; /* Distanza tra le immagini */
+}
+
+main img {
+    width: 100%; /* Larghezza completa della colonna */
+    height: auto; /* Altezza automatica per mantenere le proporzioni */
+}
+
+
+
 
     
  
