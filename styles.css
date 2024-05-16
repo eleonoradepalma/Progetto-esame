@@ -87,6 +87,10 @@ main {
     font-weight: 400;
     text-align: left; /* Allinea il testo a sinistra */
   }
-   
+
+.left-sidebar img {
+width: 40px;
+height: 40px; 
+}
     
  
