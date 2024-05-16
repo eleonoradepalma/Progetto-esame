@@ -88,9 +88,29 @@ main {
     text-align: left; /* Allinea il testo a sinistra */
   }
 
+/* Inizia css pagina projects */
 .left-sidebar img {
 width: 40px;
 height: 40px; 
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra il contenuto orizzontalmente */
+  align-items: center; /* Centra il contenuto verticalmente */
+  gap: 10px; /* Distanza tra le immagini */
+}
+
+.img-square {
+  flex-basis: calc(50% - 10px); /* Larghezza di ogni immagine meno la metà del gap */
+  margin-bottom: 10px; /* Distanza tra le righe */
+}
+
+.img-square img {
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+  aspect-ratio: 1 / 1; /* Rende l'immagine quadrata */
+}
+
     
  
