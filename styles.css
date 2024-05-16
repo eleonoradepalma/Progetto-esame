@@ -105,11 +105,13 @@ height: 40px;
 .img-square {
   flex-basis: calc(50% - 10px); /* Larghezza di ogni immagine meno la metà del gap */
   margin-bottom: 10px; /* Distanza tra le righe */
+  flex: 1 0 calc(50% - 10px); /* Larghezza di ogni immagine meno la metà del gap */
 }
 
 .img-square img {
   height: auto; /* Mantiene le proporzioni dell'immagine */
   aspect-ratio: 1 / 1; /* Rende l'immagine quadrata */
+  width: 100%; /* Rende l'immagine larga quanto il contenitore */
 }
 
     
