@@ -118,6 +118,15 @@ main img {
     .gallery {
         flex-direction: column;
     }
+
+  .left-sidebar ul {
+    display: none;
+  }
+  .left-sidebar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
     
 } 
 
