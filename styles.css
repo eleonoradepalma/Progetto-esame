@@ -100,7 +100,13 @@ height: 40px;
  .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Aligns items to the start of the main axis */
+  justify-content: center; /* Centra gli elementi orizzontalmente */
+  align-items: center; /* Centra gli elementi verticalmente */
+  gap: 5px; /* Distanza tra le immagini sopra e sotto */
+}
+
+
+     
 }
 .gallery img {
   order: 1; /* Applies to all images */
