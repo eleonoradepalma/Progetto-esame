@@ -144,12 +144,7 @@ height: 40px;
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px)
-    {
-        .container {
-        flex-direction: row;
-        flex-wrap: wrap; 
-         }   
-     }
+
 
 
 
