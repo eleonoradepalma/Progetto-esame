@@ -81,7 +81,11 @@ height: 40px;
 }
 .gallery img {
   order: 1; /* Applies to all images */
+  width: 80vw; /* Le immagini saranno larghe l'80% della larghezza della finestra */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
 }
+
+
 .gallery img:last-child {
   order: 0; /* Applies to the last image */
 }
@@ -148,6 +152,10 @@ height: 40px;
             
     .gallery {
         flex-direction: row;
+    }
+            
+    .gallery img {
+        width: 40vw; /* Le immagini saranno larghe il 40% della larghezza della finestra */
     }
      }  
 
