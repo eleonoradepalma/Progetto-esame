@@ -114,6 +114,23 @@ height: 40px;
     display: flex;
     flex-direction: column;
 } 
+     main {
+        flex: 3;
+        order: 1;
+        min-height: 80vh;
+    } 
+         
+    .left-sidebar {
+        order: 3;
+        flex: 0.5;
+    }
+    .right-sidebar {
+        flex: 0.5;
+        order: 2;
+    }
+    footer {
+        order: 4;
+    }   
 } 
 
 /* Medium devices (tablets, 768px and up) */
