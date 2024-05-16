@@ -4,7 +4,11 @@
     padding: 0;
     margin: 0;
 }
- 
+
+.container {
+    display: flex;
+    flex-direction: column;
+} 
      
     header, 
     footer {
@@ -108,11 +112,6 @@ height: 40px;
 
 
 /* MEDIA QUERY */
-
-.container {
-    display: flex;
-    flex-direction: column;
-} 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) 
