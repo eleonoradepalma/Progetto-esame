@@ -87,7 +87,7 @@ height: 40px;
 /* MEDIA QUERY */
 
   /* Small devices (smartphone e tablet) */
-@media (max-width: 767px)
+@media (max-width: 768px)
 {
 .container {
     display: flex;
@@ -118,7 +118,7 @@ height: 40px;
 } 
 
 /* Medium devices (tablets landscape, laptop, desktop) */
-@media (min-width: 768px)
+@media (min-width: 769px)
         {
         .container {
         display: flex;
