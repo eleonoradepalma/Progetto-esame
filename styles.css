@@ -97,4 +97,15 @@ height: 40px;
 }
 
 
- 
+ .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Aligns items to the start of the main axis */
+}
+.gallery img {
+  order: 1; /* Applies to all images */
+}
+.gallery img:last-child {
+  order: 0; /* Applies to the last image */
+}
+
