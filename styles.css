@@ -167,6 +167,12 @@ main img {
     
     }
 
+/*PROBELMA! questo nasconde anche la galleria di immagini*/
+    left-sidebar img {
+    display: none;
+  }
+            
+
      }  
 
 
