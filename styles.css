@@ -150,7 +150,7 @@ height: 40px;
             
     .gallery img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
-        max-width: 100%; /* Le immagini non saranno più grandi della loro larghezza naturale */
+        width: 50%; /* Rimpicciolisci le immagini al 50% della loro larghezza originale */
     }
      }  
 
