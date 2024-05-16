@@ -114,6 +114,11 @@ height: 40px;
     footer {
         order: 4;
     }   
+      
+    .gallery {
+        flex-direction: column;
+    }
+    
 } 
 
 /* Medium devices (tablets, 768px and up) */
@@ -139,7 +144,11 @@ height: 40px;
     }
     footer {
         order: 4;
-    }        
+    }     
+            
+    .gallery {
+        flex-direction: row;
+    }
      }  
 
 /* Large devices (desktops, 992px and up) */
