@@ -105,8 +105,7 @@ height: 40px;
   gap: 5px; /* Distanza tra le immagini sopra e sotto */
 }
 
-
-     
+  
 }
 .gallery img {
   order: 1; /* Applies to all images */
@@ -115,3 +114,17 @@ height: 40px;
   order: 0; /* Applies to the last image */
 }
 
+
+
+/* MEDIA QUERY */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
