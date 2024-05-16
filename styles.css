@@ -94,18 +94,5 @@ width: 40px;
 height: 40px; 
 }
 
-
-
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.main img {
-  width: 48%; /* Larghezza leggermente inferiore al 50% per tenere conto del margine */
-  margin: 1%; /* Spazio tra le immagini */
-}
-
     
  
