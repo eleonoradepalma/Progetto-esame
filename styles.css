@@ -16,7 +16,7 @@
     header, 
     footer {
         width: 100%;
-        background: lightgray;
+        background: white;
     }  
    
     main {
@@ -46,7 +46,7 @@ body {
 }
 
 main {
-    background: gray;
+    background: white;
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
@@ -54,13 +54,13 @@ main {
   
 
 .left-sidebar {
-    background: darkgray;
+    background: white;
     display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
 }
 .right-sidebar {
-    background: darkgray;
+    background: white;
 }
 
 
