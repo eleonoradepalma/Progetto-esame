@@ -94,7 +94,7 @@ width: 40px;
 height: 40px; 
 }
 
-main {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Crea 2 colonne */
     grid-gap: 10px; /* Distanza tra le immagini */
