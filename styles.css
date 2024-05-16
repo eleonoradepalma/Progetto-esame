@@ -77,7 +77,10 @@ height: 40px;
   gap: 5px; /* Distanza tra le immagini sopra e sotto */
 }
 
-
+.gallery img {
+  width: 80vw; /* Le immagini saranno larghe l'80% della larghezza della finestra */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+}
 
 
 
