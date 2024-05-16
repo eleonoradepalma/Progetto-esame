@@ -139,7 +139,24 @@ height: 40px;
         .container {
         flex-direction: row;
         flex-wrap: wrap; 
-         }       
+         }    
+      main {
+        flex: 3;
+        order: 2;
+        min-height: 80vh;
+    } 
+         
+    .left-sidebar {
+        order: 1;
+        flex: 0.5;
+    }
+    .right-sidebar {
+        flex: 0.5;
+        order: 3;
+    }
+    footer {
+        order: 4;
+    }          
      }  
 
 /* Large devices (desktops, 992px and up) */
