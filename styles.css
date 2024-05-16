@@ -132,11 +132,6 @@ main img {
 
 /* Medium devices (tablets landscape, laptop, desktop) */
 @media (min-width: 769px)
-
-/*PROBELMA! questo nasconde anche la galleria di immagini*/
-    left-sidebar img {
-    display: none;
-  }
         {
         .container {
         display: flex;
@@ -170,6 +165,11 @@ main img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
+
+/*PROBELMA! questo nasconde anche la galleria di immagini*/
+    left-sidebar img {
+    display: none;
+  }
             
      }  
 
