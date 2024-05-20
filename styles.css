@@ -168,7 +168,8 @@ main img {
 
    
     /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
-  #burgermenù img {
+
+    .left-sidebar img {
     display: none !important;
      }
  }  
