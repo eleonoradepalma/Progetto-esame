@@ -44,8 +44,7 @@ main {
   font-size: 18px;
   font-weight: 800;
   color: black;
- text-align: center; /* Centra il testo orizzontalmente */
-}
+ text-align: center;
 
   .navigation {
     list-style: none;
@@ -59,7 +58,7 @@ main {
     font-family: 'Nimbus Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    text-align: left; /* Allinea il testo a sinistra */
+    text-align: left;
   }
 
 /* Inizia css pagina projects */
@@ -72,13 +71,13 @@ height: 40px;
  .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centra gli elementi orizzontalmente */
-  align-items: center; /* Centra gli elementi verticalmente */
-  gap: 5px; /* Distanza tra le immagini sopra e sotto */
+  justify-content: center; 
+  align-items: center; 
+  gap: 5px; /* Distanza tra immagini sopra e sotto */
 }
 
 .gallery img {
-  width: 80vw; /* Le immagini saranno larghe l'80% della larghezza della finestra */
+  width: 80vw; /* immagini larghe l'80% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 
@@ -130,7 +129,7 @@ main img {
     
 } 
 
-/* Medium devices (tablets landscape, laptop, desktop) */
+/* Medium devices (tablet landscape, laptop, desktop) */
 @media (min-width: 769px)
         {
         .container {
@@ -166,7 +165,7 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
 
-/*PROBELMA! questo nasconde anche la galleria di immagini*/
+/*PROBELMA questo nasconde anche la galleria di immagini*/
     left-sidebar img {
     display: none;
   }
