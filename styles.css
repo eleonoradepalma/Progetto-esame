@@ -169,7 +169,7 @@ main img {
    
     /* Le immagini occuperanno il 40% dello spazio disponibile */
     .left-sidebar img {
-    display: none;
+    display: block;
     width: 40px;
     height: 40px;
      }
