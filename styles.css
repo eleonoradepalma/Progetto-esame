@@ -65,7 +65,8 @@ main {
 /* Inizia css pagina projects */
 .left-sidebar img {
 width: 40px;
-height: 40px; 
+height: 40px;
+position: fixed;
 }
 
 
