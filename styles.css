@@ -169,8 +169,7 @@ main img {
 
 #ultima-immagine {
     margin-right: auto; /* Sposta l'immagine a sinistra */
-     margin-left: 10px; /* Resetta il margine sinistro */
-    padding: 5px
+     margin-left: 30px; /* Resetta il margine sinistro */
 }
   }
 
