@@ -123,8 +123,8 @@ main img {
   }
   .left-sidebar img {
     display: block;
-    width: 4px;
-    height: 4px;
+    width: 40px;
+    height: 40px;
   }
     
 } 
@@ -164,11 +164,6 @@ main img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
-
-/*PROBELMA questo nasconde anche la galleria di immagini*/
-    left-sidebar img {
-    display: none;
-  }
             
      }  
 
