@@ -166,11 +166,6 @@ main img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
-
-#ultima-immagine {
-    margin-right: auto; /* Sposta l'immagine a sinistra */
-     margin-left: 74px; /* Resetta il margine sinistro */
-}
   }
 
 
