@@ -169,7 +169,7 @@ main img {
    
     /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
    .left-sidebar img {
-    display: none;
+    display: block;
     width: 40px;
     height: 40px;
      }
