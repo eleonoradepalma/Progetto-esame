@@ -138,6 +138,10 @@ main img {
         flex-direction: row;
         flex-wrap: wrap;
          }
+
+     .left-sidebar img {
+      display: none;
+  }
             
       main {
         flex: 3;
@@ -167,12 +171,8 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
         display: visible
      }
-
-  .left-sidebar img {
-    display: none;
-  }
             
-     }  
+ }  
 
 
 
