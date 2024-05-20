@@ -169,7 +169,7 @@ main img {
    
     /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
   #burgermenù img {
-    display: block;
+    display: none !important;
      }
  }  
 
