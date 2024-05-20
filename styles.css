@@ -80,6 +80,7 @@ height: 40px;
 .gallery img {
   width: 80vw; /* immagini larghe l'80% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
+ display: visible;
 }
 
 main img {
@@ -156,8 +157,13 @@ main img {
     footer {
         order: 4;
     }     
-            
-    .gallery {
+
+    .left-sidebar img {
+    display: none;
+    width: 40px;
+    height: 40px;
+    
+        .gallery {
         flex-direction: row;
     }
             
@@ -166,10 +172,7 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
 
-    .left-sidebar img {
-    display: none;
-    width: 40px;
-    height: 40px;
+    
  }  
 
 
