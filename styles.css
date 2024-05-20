@@ -159,7 +159,7 @@ main img {
             
     .gallery {
         flex-direction: row;
-        display: block
+        display: visible
     }
             
     .gallery img {
