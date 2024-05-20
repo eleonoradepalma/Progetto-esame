@@ -167,12 +167,11 @@ main img {
      }
 
    
-    /* Le immagini occuperanno il 40% dello spazio disponibile */
+    /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
     .left-sidebar img {
     display: block;
     width: 40px;
     height: 40px;
-    position: fixed;
      }
  }  
 
