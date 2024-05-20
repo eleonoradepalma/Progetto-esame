@@ -167,13 +167,6 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
 
-   
-    /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
-    #burgermenù img {
-    display: none;
-    width: 40px;
-    height: 40px;
-   }  
   }
 
 
