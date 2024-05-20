@@ -75,6 +75,7 @@ height: 40px;
   justify-content: center; 
   align-items: center; 
   gap: 5px; /* Distanza tra immagini sopra e sotto */
+  display: visible
 }
 
 .gallery img {
@@ -163,13 +164,11 @@ main img {
             
     .gallery {
         flex-direction: row;
-        display: visible
     }
             
     .gallery img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
-        display: visible
      }
             
  }  
