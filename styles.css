@@ -86,9 +86,6 @@ main img {
   height: auto;
 }
 
-#ultima-immagine {
-margin-right: auto; /* Sposta l'immagine a sinistra */
-}
 
 /* MEDIA QUERY */
 
@@ -170,6 +167,9 @@ margin-right: auto; /* Sposta l'immagine a sinistra */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
 
+#ultima-immagine {
+    margin-right: auto; /* Sposta l'immagine a sinistra */
+}
   }
 
 
