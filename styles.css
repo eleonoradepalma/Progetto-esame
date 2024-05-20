@@ -167,7 +167,7 @@ main img {
      }
 
     .left-sidebar img {
-    display: hidden;
+    display: none;
     width: 40px;
     height: 40px;
  }  
