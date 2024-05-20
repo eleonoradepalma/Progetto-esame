@@ -159,6 +159,7 @@ main img {
     
     .gallery {
         flex-direction: row;
+        display: visible !important;
     }
             
     .gallery img {
@@ -169,10 +170,10 @@ main img {
    
     /* PROBELMA: andrebbe display none ma fa nascondere anche la gallery */
 
-    .left-sidebar img {
+    #burgermenù img {
     display: none !important;
-     }
- }  
+   }  
+  }
 
 
 
