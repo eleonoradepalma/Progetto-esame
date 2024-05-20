@@ -166,6 +166,8 @@ main img {
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
 
+   
+    /* Le immagini occuperanno il 40% dello spazio disponibile */
     .left-sidebar img {
     display: none;
     width: 40px;
