@@ -158,7 +158,6 @@ main img {
     
     .gallery {
         flex-direction: row;
-        display: visible !important;
     }
             
     .gallery img {
