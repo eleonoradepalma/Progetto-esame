@@ -86,14 +86,6 @@ main img {
   height: auto;
 }
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
-
 /* MEDIA QUERY */
 
   /* Small devices (smartphone e tablet) */
@@ -172,6 +164,14 @@ figcaption {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
+
+    figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
   }
 
 
