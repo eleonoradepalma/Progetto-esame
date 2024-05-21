@@ -87,6 +87,8 @@ main img {
 }
 
   figcaption {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #222;
   color: #fff;
   font: italic smaller sans-serif;
