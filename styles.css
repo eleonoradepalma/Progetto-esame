@@ -86,17 +86,6 @@ main img {
   height: auto;
 }
 
-  figcaption {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  text-align: center;
-  justify-content: center; 
-  align-items: center; 
-}
-
 /* MEDIA QUERY */
 
   /* Small devices (smartphone e tablet) */
@@ -175,12 +164,7 @@ main img {
         flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
         min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
      }
-        
- .gallery.item {
-  flex-direction: row;
-  flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
-  min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
-  }
+    
   }
 
 
