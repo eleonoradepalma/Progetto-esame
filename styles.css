@@ -4,36 +4,40 @@
     padding: 0;
     margin: 0;
 }
-     
-    header, 
-    footer {
-        width: 100%;
-        background: white;
-    }  
-   
 
-/* COLORI E FONTS */
-body {
+
+.container {
+    margin: 0;
     color: white;
-    text-align: center;
-    font-size: 24px;
-    line-height: 3;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    padding: 0px;
+	display: flex;
+  flex-direction: column;
+	} 
+	
+	  
+    header,footer {
+        background: white;
 }
 
-main {
+     		
+ main {
     background: white;
-    display: flex;
-    justify-content: center; /* Centra orizzontalmente */
-    align-items: center; /* Centra verticalmente */
+	justify-content: center; /* Allinea orizzontalmente */
+    align-items: center; /* Allinea verticalmente */
 }
-  
 
+	    
 .left-sidebar {
     background: white;
-    display: flex;
     justify-content: center; /* Centra orizzontalmente */
     align-items: center; /* Centra verticalmente */
+  
 }
+
 .right-sidebar {
     background: white;
 }
@@ -42,9 +46,10 @@ main {
 .title {
   font-family: 'Nimbus Sans', sans-serif;
   font-size: 18px;
+  letter-spacing: 2px;
   font-weight: 800;
   color: black;
- text-align: center;
+  text-align: center;
      }
 
   .navigation {
@@ -54,119 +59,232 @@ main {
   .navigation li a {
     text-decoration: none;
     color: black;
-    display: block;
-    padding: 10px;
+    display: flex;
+    padding: 15px;
     font-family: 'Nimbus Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-align: left;
   }
-
-/* Inizia css pagina projects */
-#burgermenù img {
-width: 40px;
-height: 40px;
+  
+  
+  
+  #burgermenù img {
+  width: 40px;
+  height: 40px;
 }
 
- .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-  align-items: center; 
-  gap: 5px; /* Distanza tra immagini sopra e sotto */
+
+ #burgermenùprojects img {
+  width: 40px;
+  height: 40px;
 }
 
-.gallery img {
-  width: 80vw; /* immagini larghe l'80% della larghezza della finestra */
-  height: auto; /* Mantiene le proporzioni dell'immagine */
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* MEDIA QUERY */
-
-  /* Small devices (smartphone e tablet) */
-@media (max-width: 768px)
-{
-.container {
-    display: flex;
-    flex-direction: column;
-} 
-     main {
-        flex: 3;
-        order: 1;
-        min-height: 80vh;
-    } 
-         
-    .left-sidebar {
-        order: 3;
-        flex: 0.5;
-    }
-    .right-sidebar {
-        flex: 0.5;
-        order: 2;
-    }
-    footer {
-        order: 4;
-    }   
-      
-    .gallery {
-        flex-direction: column;
-    }
 
   .left-sidebar ul {
     display: none;
   }
 
-   #burgermenù img {
+    #burgermenùprojects img {
     display: block;
     width: 40px;
     height: 40px;
   }
-    
-} 
 
-/* Medium devices (tablet landscape, laptop, desktop) */
-@media (min-width: 769px)
-        {
-        .container {
-        display: flex;
+ .gallery {
+	 display: flex;
+  flex-direction: column;
+ justify-content: center; 
+  align-items: center; 
+  gap: 20px; /* Distanza tra immagini sopra e sotto */
+}
+
+.gallery img {
+  width: 98vw; /* immagini larghe il 95% della larghezza della finestra */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+ 
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 0px;
+  max-width: 350px;
+  max-height: 350px;  /* Modifica larghezza immagini e figcaption */
+  align-items: center;
+}
+
+
+figcaption {
+  font-family: 'Nimbus Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+     }
+
+
+
+.img-hover-zoom {
+    position: relative; /* Per posizionare il figcaption */
+    overflow: hidden; /* Nasconde l'overflow degli elementi figlio */
+    transition: opacity 0.3s ease; /* Effetto fade in */
+}
+
+.img-hover-zoom img {
+    transition: transform 0.3s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.2); /* Effetto zoom */
+}
+
+.img-hover-zoom figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media all and (min-width: 768px)
+{
+
+
+.container {
         flex-direction: row;
-        flex-wrap: wrap;
-         }
-          
-      main {
-        flex: 3;
+        flex-wrap: wrap;    
+    } 
+    
+	
+   
+   
+   .left-sidebar {
+        order: 1;
+        flex: 1;
+    }
+	
+   main {
+        flex: 2;
         order: 2;
         min-height: 80vh;
-    } 
-         
-    .left-sidebar {
-        order: 1;
-        flex: 0.5;
     }
+    
+    
     .right-sidebar {
-        flex: 0.5;
+        flex: 1;
         order: 3;
     }
     footer {
         order: 4;
-    }     
+    }
+
+.gallery {
+		display: flex;
+        flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+        align-items: center; 
+        gap: 20px; /* Distanza tra immagini sopra e sotto */
+    }
+	
+	
+	.gallery img {
+  width: 85vw; /* immagini larghe l'80% della larghezza della finestra */
+  height: auto; /* Mantiene le proporzioni dell'immagine */
+
+  }
+	 
+	 main img {
+  max-width: 100%;
+  height: auto;
+}
     
-    .gallery {
+         
+   .left-sidebar ul {
+    display: none;
+  }	
+         
+       	
+	#burgermenùprojects img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+	
+	
+	 #burgermenù img {
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
+  
+	
+}
+
+
+
+@media all and (min-width: 992px)
+{
+
+.container {
+        flex-direction: row;
+        flex-wrap: wrap;    
+    } 
+    
+	header,footer {
+        width: 100%;
+    }
+   
+   main {
+        flex: 2;
+        order: 2;
+        min-height: 80vh;
+    }
+    
+    .left-sidebar {
+        order: 1;
+        flex: 1;
+    }
+    .right-sidebar {
+        flex: 1;
+        order: 3;
+    }
+    footer {
+        order: 4;
+    }
+
+.gallery {
+		display: flex;
         flex-direction: row;
     }
-            
-    .gallery img {
-        flex-basis: 40%; /* Le immagini occuperanno il 40% dello spazio disponibile */
-        min-width: 40%; /* Le immagini possono espandersi fino al 100% della loro larghezza originale */
-     }
-    
-  }
+
+}
 
 
 
+@media all and (min-width: 1200px)
+{
 
+.container {
+    display: flex;
+	flex-direction: row;
+	} 
+
+.gallery {
+		display: flex;
+        flex-direction: row;
+    }
+
+}
