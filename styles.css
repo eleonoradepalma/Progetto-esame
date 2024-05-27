@@ -275,6 +275,12 @@ figcaption {
 .left-sidebar ul {
     display: block;
   }
+
+	#burgermenù img {
+    display: none;
+    width: 40px;
+    height: 40px;
+  }
 	
 }
 
