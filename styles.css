@@ -223,11 +223,11 @@ figcaption {
   }
 
 	 .left-sidebar ul {
-    display: block;
+    display: none;
   }	
 	
 	 #burgermenù img {
-    display: none;
+    display: block;
     width: 40px;
     height: 40px;
   }
