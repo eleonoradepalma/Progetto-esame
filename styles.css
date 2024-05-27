@@ -167,7 +167,10 @@ figcaption {
         flex-wrap: wrap;    
     } 
     
-	
+	header,footer {
+        width: 100%;
+    }
+   
    
    
    .left-sidebar {
