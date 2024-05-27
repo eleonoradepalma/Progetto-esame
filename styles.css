@@ -285,6 +285,10 @@ figcaption {
 	flex-direction: row;
 	} 
 
+	header,footer {
+        width: 100%;
+    }
+
 .gallery {
 		display: flex;
         flex-direction: row;
