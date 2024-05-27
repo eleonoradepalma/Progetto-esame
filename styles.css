@@ -204,7 +204,7 @@ figcaption {
 	
 	
 	.gallery img {
-  width: 85vw; /* immagini larghe l'80% della larghezza della finestra */
+  width: 100vw; /* immagini larghe l'80% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 
   }
