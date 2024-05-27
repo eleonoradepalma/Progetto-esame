@@ -273,6 +273,10 @@ figcaption {
         flex-direction: row;
     }
 
+.left-sidebar ul {
+    display: block;
+  }
+	
 }
 
 
