@@ -100,7 +100,7 @@
 }
 
 .gallery img {
-  width: 100vw; /* immagini larghe il 95% della larghezza della finestra */
+  width: 100vw; /* immagini larghe il 100% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 
