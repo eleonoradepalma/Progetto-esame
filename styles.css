@@ -1526,8 +1526,9 @@ font-family: 'Garamond', serif;
 
 
 .sliderstudio img, .slider2studio img, .slider3studio img {
-width: 320px;
-	height:auto;
+object-fit: contain;
+	width:auto ;
+	height:480px;
 }
 
 
@@ -1679,8 +1680,9 @@ font-family: 'Garamond', serif;
 
 .sliderstudio img, .slider2studio img, .slider3studio img{
 
-    width: 520px;
-	height:auto;
+ object-fit: contain;
+	width:auto ;
+	height:780px;
 }
  
  
