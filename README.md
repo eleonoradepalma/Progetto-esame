@@ -18,9 +18,18 @@ Link sito web: https://erikasorbello.netlify.app/
 * Pagina "About me"
 * Pagina "Contatti" e profili social
 
+ ### Elementi Pagine:
+*Nome e Cognome
+*Slider immagini fotografiche con scrollbar orizzontale
+*Burger menu 
+*Fullscreen overlay Navigation menù
+*Sezione di presentazione - "Chi sono" 
+*Sezione contatti e link diretti a profili social e mail
+
 ### Siti e Strumenti utilizzati:
 * Html5
 * CSS
 * Javascript
 * Netifly
 * Github
+
