@@ -949,6 +949,7 @@ overflow-x: auto;
   justify-content: left; 
   align-items: left; 
   gap: 20px; /* Distanza tra immagini sopra e sotto */
+width: 60%;
  
   
  
@@ -966,7 +967,7 @@ overflow-x: auto;
  
 
 .gallery img {
-  width: 60%; /* immagini larghe l'85% della larghezza della finestra */
+  width: 100vw; /* immagini larghe l'85% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 	
