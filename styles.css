@@ -972,7 +972,7 @@ overflow-x: auto;
  
 
 .gallery img {
-  width: 100vw; /* immagini larghe l'85% della larghezza della finestra */
+  width: 90vw; /* immagini larghe l'85% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 	
