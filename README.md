@@ -1,6 +1,6 @@
 ## Sito Web "Erika Sorbello"
 
-Realizzazione di un sito web - portfolio multipagina per una fotografa
+Realizzazione di un sito web - portfolio - multipagina per una fotografa
 
 Link sito web: https://erikasorbello.netlify.app/
 
