@@ -12,13 +12,15 @@ Link sito web: https://erikasorbello.netlify.app/
 
 *Corso Web Design*
 
-### Elementi principali della pagina:
-* Nome e logo
-* Sezione "About me"
-* Sezione "Gallery" con portfolio suddiviso per generi fotografici
-* Sezione "Contatti" e profili social
+### Pagine:
+* Pagina "Home" 
+* 3 pagine "Portfolio" suddivise per generi fotografici (Studio, Eventi e Progetti)
+* Pagina "About me"
+* Pagina "Contatti" e profili social
 
 ### Siti e Strumenti utilizzati:
-* Codepen.io
 * Html5
 * CSS
+* Javascript
+* Netifly
+* Github
