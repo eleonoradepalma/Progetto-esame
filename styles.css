@@ -966,7 +966,7 @@ overflow-x: auto;
  
 
 .gallery img {
-  width: 100vw; /* immagini larghe l'85% della larghezza della finestra */
+  width: 60%; /* immagini larghe l'85% della larghezza della finestra */
   height: auto; /* Mantiene le proporzioni dell'immagine */
 }
 	
@@ -1030,7 +1030,7 @@ font-family: 'Garamond', serif;
   
   .sliderstudio img, .slider2studio img, .slider3studio img {
 
-    width:600px ;
+    width:100% ;
 	height:auto;
 	
 }
