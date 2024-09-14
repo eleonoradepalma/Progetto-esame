@@ -946,7 +946,7 @@ body {
   .sliderstudio, .slider2studio, .slider3studio {
   display: flex;
 overflow-x: auto;
-  justify-content: center; 
+  justify-content: left; 
   align-items: center; 
 
   gap: 20px; /* Distanza tra immagini sopra e sotto */
