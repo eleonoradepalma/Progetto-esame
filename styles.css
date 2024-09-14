@@ -1328,8 +1328,9 @@ font-family: 'Garamond', serif;
 
 .sliderstudio img, .slider2studio img, .slider3studio img {
 
-    width:420px ;
-	height:auto;
+    width:auto ;
+	height:630px;
+	 object-fit: contain;
 }
 
 
