@@ -1,6 +1,6 @@
 ## Sito Web "Erika Sorbello"
 
-Realizzazione di un sito web monopagina per una fotografa
+Realizzazione di un sito web - portfolio multipagina per una fotografa
 
 Link sito web: https://erikasorbello.netlify.app/
 
@@ -11,6 +11,9 @@ Link sito web: https://erikasorbello.netlify.app/
 *Matricola n.953*
 
 *Corso Web Design*
+
+*Docente: Matteo Baccan*
+
 
 ### Pagine:
 * Pagina "Home" 
