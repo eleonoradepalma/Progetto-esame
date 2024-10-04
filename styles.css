@@ -590,7 +590,7 @@ margin: 0;
   visibility: visible;
   opacity: 1;
   padding-top:100px;
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.8);
 }
 
 #menu li{
@@ -625,8 +625,12 @@ ul {
   
 #menu a:hover  {
 	transform: scale(1.1);
-	 transition: all 0.3s ease-in-out;
-  color: orange;
+	transition: all 0.3s ease-in-out;
+    color: rgba(255,255,255,0.5);
+	 text-decoration: underline;
+    text-decoration-color: rgba(255,255,255,0.5);
+	text-underline-offset: 8px; /* Distanza dal testo */
+    text-decoration-thickness: 2px; /* Spessore della linea */
   }
   
  
