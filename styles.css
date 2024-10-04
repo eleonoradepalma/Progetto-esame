@@ -1195,9 +1195,13 @@ h3 {
 
 #fotoindex-desktop {
 
-    display: block;
-    width: 700px;
+    display: flex;
+flex-direction: row;
+    width: 435px;
     height: auto;	
+	gap: 15px; /* Aggiunge uno spazio di 10px tra le immagini */
+	 justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */		
     }
 
 	  
@@ -1564,9 +1568,13 @@ object-fit: contain;
 
 #fotoindex-desktop {
 
-    display: block;
-    width: 800px;
+   display: flex;
+flex-direction: row;
+    width: 435px;
     height: auto;	
+	gap: 15px; /* Aggiunge uno spazio di 10px tra le immagini */
+	 justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */		
     }
 
 
@@ -1743,6 +1751,16 @@ h3 {
 	margin-top: 20px;
         }
 
+	
+	#fotoindex-desktop {
+		display: flex;
+flex-direction: row;
+    width: 435px;
+    height: auto;	
+	gap: 15px; /* Aggiunge uno spazio di 10px tra le immagini */
+	 justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */		
+    }
 
 }
 
@@ -1759,9 +1777,13 @@ h3 {
 
  
    #fotoindex-desktop {
- display: block;
- width: 1200px;
- height: auto;	
+display: flex;
+flex-direction: row;
+    width: 435px;
+    height: auto;	
+	gap: 15px; /* Aggiunge uno spazio di 10px tra le immagini */
+	 justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */	
     }
 	
 	
@@ -1817,5 +1839,6 @@ font-family: 'Garamond', serif;
    margin-bottom: 160px;
 }
 	
+
 	
 }
