@@ -34,6 +34,14 @@ border-radius: 10px;
 }
 
 
+h5 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 75%;
+  font-weight: 700;
+   margin-top: 6px;
+ 
+ 
+	} 
 
 
 .container {
@@ -54,7 +62,7 @@ border-radius: 10px;
 	  
     header {
         background: transparent;
-		height: 75px; /* Altezza desiderata per l'header */
+		height: 98px; /* Altezza desiderata per l'header */
       text-align: center;
 	  padding: 24.7px;
 	  position: fixed;
@@ -85,10 +93,11 @@ border-radius: 10px;
     align-items: center; /* Allinea verticalmente */
 	display: flex;
 	flex-direction: column;
-	margin-top: 75px; 
+	margin-top: 96px; 
 	margin-bottom: 75px;
 	max-width: 95vw;
 	z-index: -999;
+	
 	
 	
 }
@@ -99,9 +108,10 @@ border-radius: 10px;
     align-items: center;
 	display: flex;
 	flex-direction: column;
-	margin-top: 75px; /* cambiare margine alto */
+	margin-top: 96px; /* cambiare margine alto */
 	margin-bottom: 75px; /* margine basso */
 	max-width: 95vw;
+	
 
 }
 	    
@@ -364,8 +374,7 @@ figcaption {
 	
   .box-1 {
   order: 1;
-   margin-top: 30px; 
-  margin-left: 20px;
+   margin-left: 20px;
    margin-right: 20px; 
 	 }
 
@@ -455,6 +464,8 @@ margin: 0;
 #fotoindex-desktop {
     display: none;			
 }
+
+
 
 
 #burger-menu {
@@ -831,9 +842,15 @@ body {
 
 
 	
-	header,footer {
+	footer {
         width: 100%;
 		height: 100px;
+		padding: 37.2px;
+    }
+	
+	header {
+        width: 100%;
+		height: 122px;
 		padding: 37.2px;
     }
    
@@ -851,9 +868,9 @@ body {
    main {
         flex: 3;
         order: 2;
-        min-height: 80vh;
-		margin-top: 100px;
-		margin-bottom: 100px;
+        min-height: 75vh;
+		margin-top: 120px;
+		margin-bottom: 120px;
 
 		
     }
@@ -861,8 +878,10 @@ body {
 	main-studio {
         flex: 3;
         order: 2;
-        min-height: 80vh;
+        min-height: 75vh;
        min-width: 60vw;
+	   margin-top: 120px;
+		margin-bottom: 120px;
     }
 		
 
@@ -980,7 +999,7 @@ overflow-x: auto;
 	
   .box-1 {
   order: 1;
-   margin-top: 30px; 
+ 
 	 }
 
 
@@ -1113,7 +1132,7 @@ font-family: 'Garamond', serif;
    main {
         flex: 3;
         order: 2;
-        min-height: 80vh;
+        min-height: 74vh;
 		display: flex;
 		flex-direction: row;
     }
@@ -1417,14 +1436,14 @@ body {
 	 main {
         flex: 3;
         order: 2;
-        min-height: 80vh;
+        min-height: 74vh;
 			
     }
 	
 		  main-studio {
         flex: 3;
         order: 2;
-        min-height: 80vh;
+        min-height: 74vh;
 		min-width: 60vw;
 			
     }
@@ -1663,7 +1682,7 @@ font-family: 'Garamond', serif;
   main-studio {
         flex: 3;
         order: 2;
-        min-height: 80vh;
+        min-height: 74vh;
 		min-width: 60vw;
 				
     }
@@ -1754,9 +1773,7 @@ flex-direction: row;
     }
 	
 
-
 }
-
 
 
 
