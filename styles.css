@@ -1436,7 +1436,7 @@ body {
 	 main {
         flex: 3;
         order: 2;
-        min-height: 74vh;
+        min-height: 60vh;
 			
     }
 	
@@ -1678,6 +1678,15 @@ font-family: 'Garamond', serif;
    order: -1;
    margin-bottom: 50px;
 }
+
+
+ main {
+        flex: 3;
+        order: 2;
+        min-height: 74vh;
+		min-width: 60vw;
+				
+    }
  
   main-studio {
         flex: 3;
