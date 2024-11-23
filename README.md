@@ -2,7 +2,7 @@
 
 Realizzazione di un sito web - portfolio - multipagina per una fotografa
 
-Link sito web: https://erikasorbello.netlify.app/
+Link sito web: https://erikasorbello.com/
 
 *Anno accademico 2023/2024*
 
